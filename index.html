@@ -12,12 +12,17 @@
         <legend>Datos Personales</legend>
     <p>
         <label for="nom">Nombre</label>
-        <input type="text" maxlength="6" name="nombre" id="nom">
+        <input type="text" required placeholder="Escriba su nombre completo" maxlength="100" name="nombre" id="nom">
+    </p>
+
+     <p>
+        <label for="pob">Población:</label>
+        <input type="text" autofocus value="Alcázar de San Juan" maxlength="50" name="pob" id="pob">
     </p>
 
     <p>
         <label for="contrase">Contraseña:</label>
-        <input type="text" maxlength="6" name="contraseña" id="contrase">
+        <input type="text" minlength="4" maxlength="6" name="contraseña" id="contrase">
     </p>
     <p>
        
@@ -30,7 +35,7 @@
     </p>
     <p>
         <label for="fumador">Fumador:</label>
-        <input type="checkbox" name="fuma" id="fumador">
+        <input type="checkbox" name="fuma" id="fumador" checked>
     </p>
 </fieldset>
     <p>
